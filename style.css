@@ -1,0 +1,101 @@
+body{margin: 0px;
+	background-color: black;
+	color: white;
+	
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    font-size: 12px;
+  }
+}
+
+
+#nav-bar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+}
+
+
+#nav-bar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#header{ text-align: center; }
+
+
+
+video{
+    height: 315px;
+    
+}
+
+
+#products{display:flex;
+flex-wrap:wrap;
+justify-content: center}
+
+img{
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover { transform: scale(1.1);
+ }
+
+ form{
+	width: 800px;
+	background-color: #00BFFF;
+	display: block;
+	padding: 40px;
+	margin: 75px auto;
+	text-align: center;
+	border-radius: 10%;
+	font-size: 25px
+}
+
+input[type=text] {
+  border: 2px solid #B0C4DE;
+  border-radius: 10px;
+  width: 60%;
+  height: 45px;
+}
+
+input[type=email] {
+  border: 2px solid #B0C4DE;
+  border-radius: 10px;
+  width: 60%;
+  height: 45px;
+}
+input[type=number] {
+  border: 2px solid #B0C4DE;
+  border-radius: 10px;
+  width: 40%;
+  height: 45px;
+}
+
+
+textarea{
+	 border: 2px solid #B0C4DE;
+border-radius: 10px;
+	 width: 80%;
+  height: 150px;
+}
+.button {background-color:#B0C4DE;
+font-size: 26px;
+border-radius: 8px;
+ transition-duration: 0.4s;}
+
+.button:hover {
+  background-color: #4CAF50; 
+
+}
